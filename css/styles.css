@@ -1,0 +1,165 @@
+#title {
+  background-color: #91ce21;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navegação */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Botões */
+
+.botao-baixar {
+  margin: 5% 3% 5% 0;
+}
+
+/* Imagem Título */
+
+.imagem-titulo {
+  width: 60%;
+  right: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+}
+
+/* Apresentação */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feauture-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #8fc33a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #91ce21;
+}
+
+/* Slide */
+
+#testemunhos-carrosel {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #8fc33a;
+  color: #fff;
+}
+
+.imagem-testemunho {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Imprensa */
+
+#imprensa {
+  background-color: #8fc33a;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo-imprensa {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Preços */
+
+#precos {
+  padding: 100px;
+  text-align: center;
+}
+
+.preco-coluna {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .imagem-titulo {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Frase */
+
+#frase {
+  background-color: #91ce21;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Rodapé */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon-footer {
+  margin: 20px 10px;
+}
