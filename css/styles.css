@@ -130,19 +130,36 @@ p {
   text-align: center;
 }
 
+#precos h2{
+  color: #8fc33a;
+}
+
+#precos .card-body h2{
+  color: #343a40;
+}
+
+#precos h3{
+  color:#8fc33a;;
+}
+#precos p{
+  color: #343a40;
+}
+
 .preco-coluna {
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
 
-  .imagem-titulo {
-    position: static;
-    transform: rotate(0);
-  }
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #8fc33a;
+  border-color: #8fc33a;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #91ce21;
+  border-color: #8fc33a;
 }
 
 /* Frase */
@@ -162,4 +179,73 @@ p {
 
 .icon-footer {
   margin: 20px 10px;
+}
+
+/* responsividade media queries */
+  @media (max-width: 1028px) {
+    #title {
+      text-align: left;
+    }
+
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+      color: #fff;
+      font-size: 3.0rem;
+      line-height: 1.5;
+    }
+  
+    .imagem-titulo {
+      width: 60%;
+      right: 30%;
+      position: static;
+      transform: rotate(0);
+    }
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .imagem-titulo {
+    width: 35%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media (max-width: 947px){
+
+}
+
+@media (max-width: 690px) {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.0rem;
+    line-height: 1.5;
+  }
+
+  .imagem-titulo {
+    width: 30%;
+    position: static;
+  }
+
+  
+}
+
+@media (max-width: 470px) {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .imagem-titulo {
+    width: 35%;
+    position: static;
+  }
 }
