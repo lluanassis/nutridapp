@@ -9,8 +9,7 @@ Adaptado do exercício 'TinDog' do curso 'The Complete 2021 Web Development Boot
 ![Medium Gif](https://raw.githubusercontent.com/lluanassis/nutridapp/master/images/nutridapp_web.gif)
 
 ## Layout Mobile
-![Medium Gif](https://raw.githubusercontent.com/lluanassis/nutridapp/master/images/nutridapp_phone.gif width="70%" height="70%")
-
+![Medium Gif](https://raw.githubusercontent.com/lluanassis/nutridapp/master/images/nutridapp_phone.gif")
 
 ## Principais Ferramentas
 - HTML 
